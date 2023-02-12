@@ -42,3 +42,33 @@ header{
     letter-spacing: 1px;
     color: var(--text-color);
 }
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: var(--normal-size);
+    transition: all .36s ease;
+}
+.navlist a:hover{
+    color: var(--main-color);
+}
+.header-icons i{
+    font-size: 32px;
+    color: var(--text-color);
+    margin-right: 20px;
+    transition: all .36s ease;
+}
+.header-icons i:hover{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 34px;
+    color: var(--text-color);
+    z-index: 10001;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
